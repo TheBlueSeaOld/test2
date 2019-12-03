@@ -1,0 +1,97 @@
+<!-- 拖拽980 -->
+			<!-- 脚部 -->
+			<footer class="g-ft g-ft-edit">
+				<!-- 脚部980 -->
+				<div class="g-ft-inner">
+					<!-- 脚部自定义模块 -->
+					<div class="m-ft-foothtml">
+						<div id="set_foothtml">
+							<br />
+							<div style="background:#242424;padding:20px 0 0 0;">
+								<table style="width:1200px;text-align:left;" cellpadding="2" cellspacing="0" class="ke-zeroborder">
+									<tbody>
+										<tr>
+										<yang:navlist typeid='0'>
+											<?php if($navlist['id']==4){ ?>
+											<td style="width:200px;">
+												<a class="dibu_a" href="{$navlist.url}">{$navlist.name}</a>
+											</td>
+											<?php }?>
+										</yang:navlist>
+										<yang:navlist typeid='0'>
+											<?php if($navlist['id']==3){ ?>
+											<td style="width:200px;">
+												<a class="dibu_a" href="{$navlist.url}">{$navlist.name}</a>
+											</td>
+											<?php }?>
+										</yang:navlist>
+										<yang:navlist typeid='0'>
+											<?php if($navlist['id']==2){ ?>
+											<td style="width:200px;">
+												<a class="dibu_a" href="{$navlist.url}">{$navlist.name}</a>
+											</td>
+											<?php }?>
+										</yang:navlist>
+										<yang:navlist typeid='0'>
+											<?php if($navlist['id']==1){ ?>
+											<td style="width:200px;">
+												<a class="dibu_a" href="{$navlist.url}">{$navlist.name}</a>
+											</td>
+											<?php }?>
+										</yang:navlist>
+
+										<yang:abc id='2' limit=''>
+											<td rowspan="2" style="text-align:center;width:150px;">
+												<img src="{$abc.content}" width="80%" alt="" /><br />
+												<p class="dibu_p">
+													{$abc.title}
+												</p>
+											</td>
+										</yang:abc>
+										<yang:abc id='3' limit=''>
+											<td rowspan="2" style="text-align:center;width:150px;">
+												<img src="{$abc.content}" width="80%" alt="" /><br />
+												<p class="dibu_p">
+													{$abc.title}
+												</p>
+											</td>
+										</yang:abc>
+
+										</tr>
+										<tr>
+											<td>
+												<p class="dibu_p">
+													手机号码<br /> <yang:phone />
+												</p>
+											</td>
+											<td>
+												<p class="dibu_p">
+													联系邮箱<br /> <yang:beian />
+												</p>
+											</td>
+											<td colspan="2">
+												<p class="dibu_p">
+													总部地址<br /> <yang:address />
+												</p>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+								<br />
+								<p style="font-size:14px;color:#fff;font-family:'黑体';line-height:2em;word-spacing:10px;text-align:center;">
+									<yang:copyright /> <yang:address />
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- 脚部自定义模块 end -->
+					<!-- 脚部菜单 -->
+					<!-- 脚部菜单 end -->
+					<!-- 脚部信息 -->
+					<div class="m-ft-text">
+						<span id="set_beian"><a target="_blank" href=""> 粤ICP证00000X号</a>&nbsp;&nbsp;&nbsp;</span>
+					</div>
+					<!-- 脚部信息 end -->
+				</div>
+				<!-- 脚部980 end -->
+			</footer>

@@ -1,0 +1,73 @@
+<extend name="Public:base" />
+<block name="content">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="panel panel-info"> 
+        <!-- Default panel contents -->
+        <div class="panel-heading"><em class="glyphicon glyphicon-star"></em> 我的个人信息</div>
+        <div class="panel-body">
+          <p> 您好，{$Think.session.yang_adm_username} <br/>
+            上次登录时间：{$Think.session.yang_adm_login_time} <br/>
+            上次登录IP：{$Think.session.yang_adm_login_ip} <br/>
+          </p>
+        </div>
+      </div>
+      <div class="panel panel-default"> 
+        <!-- Default panel contents -->
+        <div class="panel-heading">运行环境及技术说明</div>
+        <div class="panel-body">
+          <p> 运行环境：<?php echo PHP_OS;?> <br/>
+            页面实现技术：DIV+CSS <br/>
+            特效技术：Java Script、Jquery、Ajax <br/>
+            设计软件：Photoshop、Illustrator等 <br/>
+            代码执行标准：国际W3C标准 <br/>
+            <span class='hidden'>XYHCMS</span>
+            <style>
+							.hidden{visibility:hidden;}
+						</style>
+          </p>
+        </div>
+      </div>
+      <div class="panel panel-info"> 
+        <!-- Default panel contents -->
+        <div class="panel-heading">售后备忘录</div>
+        <div class="panel-body">
+          <p> 公司官网：<a href="http://www.qmwl.cn">www.qmwl.cn</a> <br>
+            8小时客服电话：010-80769080<br>
+            16小时服务电话：010-51663573<br>
+            售后客服QQ：2210830485<br>
+            售后邮箱：<a href="mailto:info@qmwl.cn">info@qmwl.cn</a><br>
+            售后微信：<br>
+            <table width="340" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td align="center"><img src="http://www.qmwl.cn/Application/Home/View/Public/img/wxt1.png" alt="" height="150"></td>
+      <td align="center"><img src="http://www.qmwl.cn/Application/Home/View/Public/img/wxt2.png" alt="" height="150"></td>
+    </tr>
+    <tr>
+      <td align="center">公众账号二维码</td>
+      <td align="center">客服微信二维码</td>
+    </tr>
+  </tbody>
+</table>
+
+          </p>
+        </div>
+      </div>
+      <div class="panel panel-default"> 
+        <!-- Default panel contents -->
+        <div class="panel-heading">基础型技术维护（免费赠送一年）</div>
+        <div class="panel-body">
+        <p>1.确保网站的正常使用，网站出现运行错误，恢复网站正常运行。（即：网站出现问题，在正常工作时间通知我们售后，接到反馈后排入售后问题队列，一般2-5工作日内处理。）<br />
+2.网站后台操作培训，网站技术方面指导，网站后台编辑器的排版培训。（即：网站完成后，指导客户，如何使用后台管理自己的网站。）<br />
+3. 5*8小时电话技术咨询服务一年（即：客户对于网站任何技术和流程上的疑问免费进行解答。）<br />
+4.网站数据备份原还（即：数据库备份每季度1次，需要还原时还原到最近一个月的数据）。<br />
+5.对嵌入式木马病毒清理（注：恶意破坏网站结构病毒视损坏程度加收费用）。
+        	
+        </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6"> </div>
+  </div>
+</block>

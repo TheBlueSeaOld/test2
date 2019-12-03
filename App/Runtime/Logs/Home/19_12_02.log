@@ -1,0 +1,382 @@
+[ 2019-12-02T17:20:20+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001839s ]
+SQL: SHOW COLUMNS FROM `xyh_config` [ RunTime:0.0143s ]
+SQL: SELECT `name`,`s_value`,`type_id` FROM `xyh_config`  [ RunTime:0.0014s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001485s ]
+ERR: Class 'CaptchaBuilder' not found
+
+[ 2019-12-02T17:20:38+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+ERR: Class 'CaptchaBuilder' not found
+
+[ 2019-12-02T17:20:39+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+ERR: Class 'CaptchaBuilder' not found
+
+[ 2019-12-02T17:21:29+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001181s ]
+ERR: Class 'CaptchaBuilder' not found
+
+[ 2019-12-02T17:21:30+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001318s ]
+ERR: Class 'CaptchaBuilder' not found
+
+[ 2019-12-02T17:21:30+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002503s ]
+ERR: Class 'CaptchaBuilder' not found
+
+[ 2019-12-02T17:21:31+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
+ERR: Class 'CaptchaBuilder' not found
+
+[ 2019-12-02T17:21:31+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001479s ]
+ERR: Class 'CaptchaBuilder' not found
+
+[ 2019-12-02T17:21:31+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+ERR: Class 'CaptchaBuilder' not found
+
+[ 2019-12-02T17:21:31+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000963s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001487s ]
+ERR: Class 'CaptchaBuilder' not found
+
+[ 2019-12-02T17:21:36+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000610s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001483s ]
+
+[ 2019-12-02T17:21:37+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001940s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001206s ]
+
+[ 2019-12-02T17:21:40+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001323s ]
+ERR: Class 'CaptchaBuilder' not found
+
+[ 2019-12-02T17:21:48+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001181s ]
+ERR: Class 'CaptchaBuilder' not found
+
+[ 2019-12-02T17:21:49+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+ERR: Class 'CaptchaBuilder' not found
+
+[ 2019-12-02T17:21:49+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001695s ]
+ERR: Class 'CaptchaBuilder' not found
+
+[ 2019-12-02T17:21:49+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004315s ]
+ERR: Class 'CaptchaBuilder' not found
+
+[ 2019-12-02T17:21:49+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002355s ]
+ERR: Class 'CaptchaBuilder' not found
+
+[ 2019-12-02T17:21:50+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001533s ]
+ERR: Class 'CaptchaBuilder' not found
+
+[ 2019-12-02T17:23:52+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003180s ]
+ERR: Class 'CaptchaBuilder' not found
+
+[ 2019-12-02T17:23:52+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001891s ]
+ERR: Class 'CaptchaBuilder' not found
+
+[ 2019-12-02T17:24:57+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004356s ]
+ERR: Class 'CaptchaBuilder' not found
+
+[ 2019-12-02T17:24:58+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001273s ]
+ERR: Class 'CaptchaBuilder' not found
+
+[ 2019-12-02T17:24:58+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+ERR: Class 'CaptchaBuilder' not found
+
+[ 2019-12-02T17:25:00+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+ERR: Class 'CaptchaBuilder' not found
+
+[ 2019-12-02T17:25:00+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+ERR: Class 'CaptchaBuilder' not found
+
+[ 2019-12-02T17:25:00+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+ERR: Class 'CaptchaBuilder' not found
+
+[ 2019-12-02T17:25:00+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001403s ]
+ERR: Class 'CaptchaBuilder' not found
+
+[ 2019-12-02T17:25:07+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+
+[ 2019-12-02T17:25:07+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001675s ]
+
+[ 2019-12-02T17:25:17+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001753s ]
+NOTIC: [2] require(./vendor/autol2oad.php): failed to open stream: No such file or directory E:\Aliukun\PHPTutorial\WWW\ceshi\moban1\App\Home\Controller\GitController.class.php 第 8 行.
+
+[ 2019-12-02T17:25:17+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+NOTIC: [2] require(./vendor/autol2oad.php): failed to open stream: No such file or directory E:\Aliukun\PHPTutorial\WWW\ceshi\moban1\App\Home\Controller\GitController.class.php 第 8 行.
+
+[ 2019-12-02T17:25:21+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+ERR: Class 'CaptchaBuilder' not found
+
+[ 2019-12-02T17:25:21+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002134s ]
+ERR: Class 'CaptchaBuilder' not found
+
+[ 2019-12-02T17:25:53+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+ERR: Class 'CaptchaBuilder' not found
+
+[ 2019-12-02T17:25:53+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+ERR: Class 'CaptchaBuilder' not found
+
+[ 2019-12-02T17:25:54+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+ERR: Class 'CaptchaBuilder' not found
+
+[ 2019-12-02T17:25:54+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002612s ]
+ERR: Class 'CaptchaBuilder' not found
+
+[ 2019-12-02T17:25:55+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+ERR: Class 'CaptchaBuilder' not found
+
+[ 2019-12-02T17:28:51+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002216s ]
+ERR: Class 'CaptchaBuilder' not found
+
+[ 2019-12-02T17:31:00+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+ERR: Class 'CaptchaBuilder' not found
+
+[ 2019-12-02T17:31:01+08:00 ] ::1 /ceshi/moban1/index.php/home/Git/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+ERR: Class 'CaptchaBuilder' not found
+

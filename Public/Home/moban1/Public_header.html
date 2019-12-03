@@ -1,0 +1,292 @@
+<script src="https://cdn.bootcss.com/layer/2.2/layer.js"></script>
+		
+
+		<div style="width:100%;background:#333;">
+			<div class="toub">
+				<a href="{:U('List/index',array('cid'=>2))}">实体店 </a>
+				<a href="{:U('List/index',array('cid'=>1))}">合作加盟 </a>
+				<a href="{:U('List/index',array('cid'=>4))}">了解严选 </a>
+			</div>
+		</div>
+		<script type="text/javascript" src="__PUBLIC__/js/common.js"></script>
+
+		<!-- 代码 开始 -->
+		<link href="__PUBLIC__/css/sidenav8_right.css" rel="stylesheet" type="text/css" />
+		<link href="__PUBLIC__/css/gray.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="__PUBLIC__/js/sidenav8.js"></script>
+
+		<div id="izl_rmenu" class="izl-rmenu">
+
+			<a class="izl_rmenu_btn izl_rmenu_hover">
+				<img class="pic" src="__PUBLIC__/imgs/a00767y.demo.guanwangyun.com">
+				<img src="__PUBLIC__/imgs/r_wx.png" /><span>微信扫码</span>
+			</a>
+
+			<div class="izl_rmenu_btn izl_rmenu_hover service-item" target="_blank">
+				<div class="ser_icon">
+					<img src="__PUBLIC__/imgs/r_qq.png" />
+					<span>在线客服</span>
+				</div>
+				<div class="ser_iem" style="display:none;">
+					<ul>
+						<li class="item-sel">
+							<a target="_blank" href=""><img src="__PUBLIC__/imgs/qq1.png" align="absmiddle">客服①号</a>
+						</li>
+						<li class="item-sel">
+							<a target="_blank" href=""><img src="__PUBLIC__/imgs/qq1.png" align="absmiddle">客服②号</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<a id="set_login_fx" class="izl_rmenu_btn izl_rmenu_hover">
+				<img src="__PUBLIC__/imgs/fenxiao.png" /><span>我要推广</span>
+			</a>
+
+			<a id="fx_tgpc" class="izl_rmenu_btn izl_rmenu_hover">
+				<img src="__PUBLIC__/imgs/tuiguang.png" /><span>人脉推广</span>
+			</a>
+
+			<a id="fx_fxpc" class="izl_rmenu_btn izl_rmenu_hover">
+				<img src="__PUBLIC__/imgs/fenxiang.png" /><span>全民分享</span>
+			</a>
+
+			<a href="" class="izl_rmenu_btn izl_rmenu_hover btn-item">
+				<div>
+					<img src="__PUBLIC__/imgs/r_phone.png" />
+					<span>热线电话</span>
+				</div>
+				<div class="ph_iem" style="margin-top: 5px; display: none;">
+					<ul>
+						<li class="item-sel">010-22228888</li>
+						<li class="item-sel">020-55558888</li>
+					</ul>
+				</div>
+			</a>
+
+			<a href="" class="izl_rmenu_btn izl_rmenu_hover">
+				<img src="__PUBLIC__/imgs/r_grzx.png" /><span>用户中心</span>
+			</a>
+
+			<!--<a href="" class="izl_rmenu_btn izl_rmenu_hover btn-item">
+                 <img src="__PUBLIC__/imgs/r_phone.png" /> <span>010-22228888</span>
+            </a>-->
+
+			<div class="izl_rmenu_btn btn-top">
+				<a href="">
+					<img src="__PUBLIC__/imgs/r_top.png" /><span>返回顶部</span>
+				</a>
+			</div>
+		</div>
+		<!-- 代码 结束 -->
+		<script>
+			$(function() {
+				//热线电话
+				var old_wid = $('.btn-item').height();
+				var new_wid = $('.btn-item').height() + $('.ph_iem').height();
+				$('.btn-item').hover(function() {
+					$(this).css({
+						'height': new_wid
+					});
+					$('.ph_iem').css({
+						'display': 'block'
+					});
+				}, function() {
+					$(this).css({
+						'height': old_wid
+					});
+					$('.ph_iem').css({
+						'display': 'none'
+					});
+				});
+
+				//在线客服
+				var oldser_wid = $('.service-item').height();
+				var newser_wid = $('.ser_iem').height();
+				if(newser_wid == 0) {
+					newser_wid = oldser_wid;
+				}
+				$('.service-item').hover(function() {
+					$(this).css({
+						'height': newser_wid
+					});
+					$('.ser_iem').css({
+						'display': 'block'
+					});
+					$('.ser_icon').css({
+						'display': 'none'
+					});
+				}, function() {
+					$(this).css({
+						'height': oldser_wid
+					});
+					$('.ser_iem').css({
+						'display': 'none'
+					});
+					$('.ser_icon').css({
+						'display': 'block'
+					});
+				});
+
+				$("#fx_applypc").click(function() {
+					$.layer({
+						type: 2,
+						title: '',
+						area: ['560px', '320px'],
+						offset: ['180px', ''],
+						iframe: {
+							src: "/account/fenxiao.php?type=fx_apply"
+						}
+					});
+				});
+				$("#fx_tgpc").click(function() {
+					$.layer({
+						type: 2,
+						title: '',
+						area: ['565px', '640px'],
+						offset: ['10px', ''],
+						iframe: {
+							src: "/account/fenxiao.php?type=fx_tuiguang"
+						}
+					});
+				});
+				$("#fx_fxpc").click(function() {
+					$.layer({
+						type: 2,
+						title: '',
+						area: ['565px', '640px'],
+						offset: ['10px', ''],
+						iframe: {
+							src: "/account/fenxiao.php?type=fx_fenxiang"
+						}
+					});
+				});
+
+				$('.izl-rmenu .izl_rmenu_btn').hover(function() {
+					$(this).css('left', '-88px');
+				}, function() {
+					$('.izl-rmenu .izl_rmenu_btn').css('left', '0')
+				})
+			})
+		</script>
+		<!-- 头部 -->
+		<div class='g-document'>
+
+<header class="g-hd">
+				<div class='g-hd-outer'>
+					<div class="g-hd-inner g-hd-limit">
+						<!-- 头部980 -->
+						<div class='g-hd-edit'>
+							<!-- 头部自定义模块 -->
+							<div class="m-hd-headhtmlwrap" id="set_headhtml">
+								<div class="m-hd-headhtml" style="width:312px;height:46px;top:17px;left:463px;">
+									<div class='m-headhtml-ct'>
+										<p style="color:#000;font-size:35px;font-weight:bold;letter-spacing:2px;font-family:幼圆;">
+											<yang:sitename />
+										</p>
+									</div>
+								</div>
+							</div>
+							<!-- 头部自定义模块 end -->
+							<!-- LOGO -->
+							<!-- LOGO end -->
+							<div class="m-hd-top">
+								<div id="for_search">
+								</div>
+							</div>
+							<div class="clearing"></div>
+						</div>
+						<div class="clearing"></div>
+
+						<!-- 头部980 end -->
+					</div>
+					<!--代码 开始 -->
+
+					<div class="">
+						<div class='m-newnav' id='set_menu'>
+
+							<div id="indexheadpage">
+								<div class="indexContent">
+									<div class="indexHead">
+
+										<div id="m_nav39_container" class="indexnav">
+											<ul id="m_menu_nav39">
+												<li id="m_nav39_list">
+													<a href="index.php">网站首页</a>
+												</li>
+											<yang:navlist typeid='0'>
+												<li id="m_nav39_list">
+													<a href="{$navlist.url}">{$navlist.name}</a>
+												</li>
+											</yang:navlist>
+											</ul>
+										</div>
+
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<script>
+						// 二级导航
+						$(function() {
+							$(".indexnav li").hover(function() {
+								$(this).find(".menu1,.m-nav-coustom").fadeIn(100);
+								//$(this).find(".sonlist .sonlist").stop(true,false).fadeOut(100);
+							}, function() {
+								$(this).find(".menu1,.m-nav-coustom").stop(true, false).fadeOut(100);
+							});
+						});
+
+						//导航浮动
+						$(function() {
+							var top_menu = $('.m-newnav');
+							var _width = $(window).width();
+							top_menu.parent().removeClass('menu_fixed');
+							$(window).scroll(function() {
+								var scroH = $(this).scrollTop();
+
+								if(scroH > $(".g-hd-outer").height()) {
+									top_menu.parent().addClass('menu_fixed');
+								} else {
+									top_menu.parent().removeClass('menu_fixed');
+								}
+							})
+						});
+					</script>
+
+					<script type="text/javascript">
+						//页面跳转
+
+						// 提取当前页面地址并分解出"/"后面的内容
+						var navurl = window.location.href;
+						var navloc = navurl.substring(navurl.lastIndexOf('/') + 1, navurl.length);
+
+						// 遍历循环出a标签里href的内容
+						// 搜索所有a标签，并保持在 navel 中
+						var navvalue = "";
+						var navli = document.getElementById('m_nav39_list').nodeName;
+
+						var navel = [],
+							navel = document.getElementById('m_menu_nav39').getElementsByTagName('a');
+						//遍历navel，获得含有 navloc 的a标签的href值
+						for(var i = 0; i < navel.length; i++) {
+							if(navel[i].href.substring(navel[i].href.lastIndexOf('/') + 1, navel[i].href.length) == navloc) {
+								// 得到的a标签的href
+								navvalue = navel[i].href.substring(navel[i].href.lastIndexOf('/') + 1, navel[i].href.length);
+								// 当前页面的li标签颜色变化
+								navel[i].parentNode.className = "nav39-z-crt";
+
+								if(navel[i].parentNode.parentNode.parentNode.nodeName == navli) {
+									navel[i].parentNode.parentNode.parentNode.className = "nav39-z-crt";
+								}
+							}
+						}
+					</script>
+					<!--代码 结束 -->
+				</div>
+
+				<!-- 头部 end1 -->
+				<!-- 拖拽980 -->
+			</header>

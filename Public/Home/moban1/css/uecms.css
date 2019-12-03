@@ -1,0 +1,130 @@
+﻿
+		.g-main,.g-hd-inner,.g-ft-inner{ width:1199px;}
+	.g-ft,.g-hd-outer{min-width:1199px;}
+	    		.g-hd-outer{background: url("20181122151156_22741.png") repeat left top;}
+			.g-ft{width:100%;position:static;min-height:80px;background: url(20181123102644_38120.png) repeat bottom;}
+		
+.toub{width:1200px;margin:auto;text-align:right;}
+.toub a{color:#fff;font-size:14px; padding:0 10px;    
+        font-family: '黑体';    line-height: 3em;}
+
+#indexheadpage{background:#f5f5f5 !important;}
+
+
+/*导航颜色*/
+/*默认*/
+#m_menu_nav39 li li>a {  color: #fff;}
+.indexnav ul li>a:hover,.indexnav ul li>a.cur,.indexnav ul li>a.cur:hover{  background:#2f2f2f; color:#fff;}
+#m_nav39_container li.nav39-z-crt {color:#ffffff;}
+.indexnav li .menu1 { background:#2f2f2f;}
+.indexnav li .menu1 li,.indexnav  li .menu1 li>a { background:#2f2f2f;}
+#m_menu_nav39 ul.menu1 li>a.cur,#m_menu_nav39 ul.menu1 li>a.cur:hover{  color:#fff;}
+.m-nav-coustom{background: #2f2f2f;}
+
+/*浮动*/
+.menu_fixed { position: fixed; top: 0px;  left:0;right:0; z-index: 9999;}
+
+/*居左居中居右*/
+#m_nav39_container{position: relative; width: 1080px; text-align:  center;  z-index: 1000; }
+#m_menu_nav39{display: inline-block; text-align: center; }
+
+/*导航样式*/
+
+/*index*/
+#indexheadpage{ width:100%; height:64px; background: url(indexheadpage.png) repeat right top; }
+.indexContent{ width:1002px; margin:0 auto;}
+ 
+/*nav*/
+.indexnav {text-align:center;font-size:0;letter-spacing:-0.307em;*letter-spacing:normal;*word-spacing:-1px;color:#fff; }
+.indexnav ul {padding:0px;display:block;}
+.indexnav li,.indexnav  li a{*zoom:1;text-align:center; line-height:64px; white-space:nowrap;}
+.indexnav li { font-size:12px;letter-spacing:normal;word-spacing:normal;float:left;text-align:center;position:relative;z-index:9999;}
+.indexnav li:last-child a{border:none;}
+.indexnav li a,.indexnav li a:hover{text-decoration:none; font-family:"Microsoft Yahei",Arial;font-size:14px;font-weight:normal;}
+
+.indexnav li {display:block;margin:0;text-align:center;}
+.indexnav li a {text-align:center;white-space:nowrap;display:block;padding:0;margin:0 auto;padding:0 16px;float:left;}
+.indexnav li,.indexnav li a{white-space:normal;}
+
+.indexnav li .menu1 {display:none;min-width:148px;position:absolute;left:0;top:64px;z-index:999;padding:10px 0;text-align:left; }
+.indexnav li .menu1 li,.indexnav  li .menu1 li a {display:block;clear:both;padding:0; margin:0;height:40px;line-height:40px;margin:0;white-space:nowrap;text-align:left;float:none;filter:alpha(opacity=100);opacity:1; }
+.indexnav li .menu1 li a,.indexnav  li .menu1 li a:hover {color:#fff;padding-left:15px;}
+.indexnav li .menu1 li a:hover {color:#A6E1F9;}
+.m-nav-coustom{position: absolute;top:63px;display:none;text-align:left;color:white;}
+.m-newnav .m-nav-coustom ul,.m-newnav .m-nav-coustom ul li, .m-newnav .m-nav-coustom ul li a, .m-newnav .m-nav-coustom a{width:auto;height:auto;z-index:0;margin:0;padding:0;line-height:inherit;visibility:none;}
+.m-newnav .m-nav-coustom ul,.m-newnav .m-nav-coustom ul li{position:static;top:0;left:0;text-align:left;display:inline;}
+
+/*页面跳转*/
+
+ 
+#visualmodule_4 .m-wg-ct{font-family:inherit;background-color:transparent;}
+#visualmodule_4 .m-wg-ct{
+                position: absolute;
+                width: 100%;
+                left: 0;
+                height: inherit;
+                overflow: hidden;
+                background-position:center 0;
+                 z-index:-1;
+            } 
+#visualmodule_5 .m-wg-ct{font-family:inherit;background-color:transparent;}
+#visualmodule_6 .m-wg-ct{background: url(20181123111008_42674.jpg) no-repeat center 0;height: 100%;}
+#visualmodule_6 .m-theme21-img{height:100%;}
+#visualmodule_6 .m-img-replace{width:100%;height: 100%;display: block;}
+
+            #visualmodule_6 .m-wg-ct{
+                position: absolute;
+                width: 100%;	
+                left: 0;
+                height: inherit;
+                overflow: hidden;
+                 z-index: -1;
+            }
+        #visualmodule_7 .m-wg-ct{font-family:inherit;padding-left:100px;padding-right:100px;padding-top:50px;padding-bottom:50px;}
+#visualmodule_8 .m-wg-ct{background: url(20181123114646_59299.jpg) no-repeat center 0;height: 100%;}
+#visualmodule_8 .m-theme21-img{height:100%;}
+#visualmodule_8 .m-img-replace{width:100%;height: 100%;display: block;}
+
+            #visualmodule_8 .m-wg-ct{
+                position: absolute;
+                width: 100%;	
+                left: 0;
+                height: inherit;
+                overflow: hidden;
+                 z-index: -1;
+            }
+        #visualmodule_9 .m-wg-ct{font-family:inherit;padding-left:100px;padding-right:100px;padding-top:50px;padding-bottom:50px;}
+#visualmodule_10 .m-wg-ct{background: url(20181123120034_75526.jpg) no-repeat center 0;height: 100%;}
+#visualmodule_10 .m-theme21-img{height:100%;}
+#visualmodule_10 .m-img-replace{width:100%;height: 100%;display: block;}
+
+            #visualmodule_10 .m-wg-ct{
+                position: absolute;
+                width: 100%;	
+                left: 0;
+                height: inherit;
+                overflow: hidden;
+                 z-index: -1;
+            }
+        #visualmodule_11 .m-wg-ct{font-family:inherit;padding-left:100px;padding-right:100px;padding-top:50px;padding-bottom:50px;}
+.m-ft-foothtml{width:1200px;}
+a.dibu_a{color:#949494;font-size:20px;
+       line-height:2.5em;font-family: '黑体'; 
+      letter-spacing: 1px;
+       text-decoration:none;}
+p.dibu_p{font-size:16px;color:#fff;
+         line-height:2.5em;
+         font-family: '黑体';
+        margin-top:15px;
+        vertical-align: top;}
+
+		body{
+		background: url("20181122151147_90545.png") repeat left top scroll;
+	}
+	#set_trigger_login{display:none;}
+
+.m-demo-sitetips {line-height: 30px;font-size: 14px;color: #000;text-align: center;position: fixed;left: 0;top: 0;z-index: 10000;width: 100%;height: 48px;border-bottom: 0;border-bottom: 1px solid #d8d8d8 \9;margin: 0;padding: 0;background: #fff;-webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.2);-moz-box-shadow: 0 2px 5px rgba(0,0,0,0.2);box-shadow: 0 2px 5px rgba(0,0,0,0.2);}
+.m-demo-sitetips .m-demo-keepcenter {max-width: 960px;min-width: 700px;_width: 860px;height: 48px;line-height: 48px;margin: 0 auto;position: relative;}
+.m-demo-sitetips .m-demo-tiptext {float: left;padding-left: 20px;}
+.m-demo-sitetips .m-demo-tiptext span {color: #666;_float:left;}
+.m-demo-red{color:red;}

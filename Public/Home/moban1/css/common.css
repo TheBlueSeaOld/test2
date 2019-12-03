@@ -1,0 +1,97 @@
+﻿
+/* 重置样式 */
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{display:block;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;font-weight:normal;}
+html,body,fieldset,img,iframe,abbr{border:0;}
+i,cite,em,var,address,dfn{font-style:normal;}
+[hidefocus],summary{outline:0;}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6,small{font-size:100%;}
+sup,sub{font-size:83%;}
+pre,code,kbd,samp{font-family:inherit;}
+q:before,q:after{content:none;}
+textarea{overflow:auto;resize:none;}
+label,summary{cursor:default;}
+a,button{cursor:pointer;}
+h1,h2,h3,h4,h5,h6,em,strong,b{font-weight:bold;}
+del,ins,a,a:hover{text-decoration:none;}
+
+/* 公共样式 */
+body,textarea,input,button,select,keygen,legend{font: 12px/150% Arial,Verdana,"\5b8b\4f53";color:#333;outline:0;}
+body{background:#fff;}
+a{color:#333;}
+a:link,a:visited{color:#333;text-decoration:none;}
+a:hover,a:active{color:#c00000;text-decoration:underline;}
+
+/* 函数样式  */
+.fl{float:left;display:inline;}
+.fr{float:right;display:inline;}
+.hidden{display:none;}
+.clearing{clear:both;width:1px;overflow:hidden;height:0;}
+
+/* 头部 */
+.g-hd-outer{ background:url(HeaderBg.jpg);}
+.g-hd-inner{MIN-HEIGHT: 84px;
+MARGIN: 0px auto;
+WIDTH: 100%;
+POSITION: relative;}
+.g-hd-edit {
+height:80px;
+}
+/* 头部顶部菜单 */
+.m-hd-top{float:right;margin-top:10px;text-align:right;height:32px;font:400 12px/32px;}
+.u-hd-btn{padding:4px 5px;}
+a.u-username{color:#c00;text-decoration:underline;}
+.u-trans{padding-right:0px;}
+
+/* 头部自定义HTML */
+.m-hd-headhtmlwrap{position:relative;}
+div.m-hd-headhtml{position:absolute;width:720px;height:85px;top:25px;left:260px;}
+
+/* LOGO */
+.m-logo {float:left;margin:10px 0;}
+.m-logo img{/*max-height:100px;_height:expression(this.height > 100 ? "100px" : this.height)*/}
+
+
+
+/* 导航 */
+.m-nav{Z-INDEX: 2;LINE-HEIGHT: 41px;POSITION: relative;HEIGHT: 41px; width:100%}
+.m-nav ul{width:1000px; margin:0 auto;}
+.m-nav ul li{width: 130px;FLOAT: left;POSITION: relative;TEXT-ALIGN: center; }
+.m-nav ul li a{DISPLAY: block;FONT-SIZE: 15px;OVERFLOW: hidden;COLOR: #fff;HEIGHT: 41px;}
+.m-nav ul li a:hover{ color:#fff;text-decoration:none;}
+.m-nav ul li ul {Z-INDEX: 100;LEFT: 0px;POSITION: absolute;visibility:hidden;top: 41px;width: 130px;display: none;}
+.m-nav ul li ul li{LINE-HEIGHT: 30px;WHITE-SPACE: nowrap;HEIGHT: 30px;}
+.m-nav ul li ul li a:hover{font-size:15px;}
+.m-nav ul li ul.last {}
+.m-nav ul li ul li ul {top:-5px;left:130px;}
+.m-nav ul li ul.last li ul{left:-130px;width:130px;}
+.m-nav ul ul li {width:130px;}
+.m-nav ul ul li a{width:130px;display:block;margin:0 auto;text-align:center;}
+.u-first a{}
+
+/**/
+.m-wg-hd{FONT-SIZE: 14px;
+OVERFLOW: hidden;
+WIDTH: 100%;
+LINE-HEIGHT: 30px;
+BORDER-BOTTOM: #ccc 1px dotted;
+HEIGHT: 30px;}
+.m-wg-hd h2{float:left;COLOR: #ce2027;}
+.m-wg-hd .more{
+margin-top:12px;
+float:right;
+FONT-SIZE: 0px;
+RIGHT: 10px;
+BACKGROUND: url(met_img.png) no-repeat -707px -235px;
+OVERFLOW: hidden;
+WIDTH: 41px;
+HEIGHT: 11px;}
+/* 脚部 */
+.g-ft{ clear:both;}
+.g-ft-inner{width:980px;margin:0 auto;}
+.m-ft-nav{text-align:center; margin-top:10px; height:25px; line-height:25px;}
+.m-ft-nav span{ font-size:10px;margin:0px 8px;}
+.m-ft-text{ text-align:center;padding:0px 0px 5px;}
